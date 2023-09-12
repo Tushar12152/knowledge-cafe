@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "cover_image": "https://i.ibb.co/c83Ld4j/digital-marketing-live-webinar-corporate-facebook-cover-template-727356-37.jpg",
+      "author": "John Doe",
+      "author_img": "https://i.ibb.co/0C3p9dg/images.jpg",
+      "title": "Sample Article 1",
+      "posted_date": "2023-09-11",
+      "reading_time":10,
+      "hashTagging": ["tag1", "tag2", "tag3"]
+    },
+    {
+      "id": 2,
+      "cover_image": "https://i.ibb.co/gycmwDH/download-1.jpg",
+      "author": "Jane Doe",
+      "author_img": "https://i.ibb.co/0C3p9dg/images.jpg",
+      "title": "Sample Article 2",
+      "posted_date": "2023-09-12",
+      "reading_time": 8,
+      "hashTagging": ["tag4", "tag5", "tag6"]
+    },
+    {
+      "id": 3,
+      "cover_image": "https://i.ibb.co/c83Ld4j/digital-marketing-live-webinar-corporate-facebook-cover-template-727356-37.jpg",
+      "author": "Jim Doe",
+      "author_img": "https://i.ibb.co/0C3p9dg/images.jpg",
+      "title": "Sample Article 3",
+      "posted_date": "2023-09-13",
+      "reading_time": 12,
+      "hashTagging": ["tag7", "tag8", "tag9"]
+    },
+    {
+      "id": 4,
+      "cover_image": "https://i.ibb.co/gycmwDH/download-1.jpg",
+      "author": "Jill Doe",
+      "author_img": "https://i.ibb.co/0C3p9dg/images.jpg",
+      "title": "Sample Article 4",
+      "posted_date": "2023-09-14",
+      "reading_time": 15,
+      "hashTagging": ["tag10", "tag11", "tag12"]
+    },
+    {
+      "id": 5,
+      "cover_image": "https://i.ibb.co/c83Ld4j/digital-marketing-live-webinar-corporate-facebook-cover-template-727356-37.jpg",
+      "author": "Jack Doe",
+      "author_img": "https://i.ibb.co/0C3p9dg/images.jpg",
+      "title": "Sample Article 5",
+      "posted_date": "2023-09-15",
+      "reading_time":7,
+      "hashTagging": ["tag13", "tag14", "tag15"]
+    }
+  ]
+  
