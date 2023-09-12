@@ -1,8 +1,10 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import Blog from "./blog";
+import PropTypes from 'prop-types';
 
-const Blogs = () => {
-    const[blog,setBlog]=useState([])
+const Blogs = ({handleBookMaerk, handleTime}) => {
+    const[blogs,setBlog]=useState([])
 
     useEffect(()=>{
         const loadData=async()=>{
@@ -12,12 +14,21 @@ const Blogs = () => {
         }
         loadData()
     },[])
-    console.log(blog)
+    // console.log(blogs)
     return (
-        <div>
-              <h1>blogs</h1> 
+        <div className="md:w-2/3">
+             
+              {
+                blogs.map(blog=><Blog handleBookMaerk={handleBookMaerk}
+                    handleTime={ handleTime}
+                    key={blog.id} blog={blog}></Blog>)
+              }
         </div>
     );
 };
+Blogs.propTypes={
+    handleBookMaerk:PropTypes.func,
+    handleTime:PropTypes.func.isRequired,
+}
 
 export default Blogs;
